@@ -9,15 +9,17 @@ const Header: React.FC = () => {
   const location = useLocation();
 
 const bgColor: string = "rmipurple";
+const textColor: string = "white";
 
-const BG_CLASS: Record<string, string> = {
-  rmipurple: "bg-rmipurple-800",
-  rmiblue: "bg-bluespruce",
+const COLOR_CLASS: Record<string, string> = {
+  rmipurple: "rmipurple-800",
+  rmiblue: "bluespruce",
+  white: "white",
   // add others you need
 };
 
   return (
-    <header className={`${BG_CLASS[bgColor] ?? "bg-rmipurple-800"} text-white shadow-md`}>
+    <header className={`bg-${COLOR_CLASS[bgColor] ?? "rmipurple-800"} text-${COLOR_CLASS[textColor] ?? "white"} shadow-md`}>
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
         <Link
           to="/"
