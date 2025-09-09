@@ -1,7 +1,7 @@
 [
   {
     "id": "scenario-simple-full",
-    "name": "Full Enums Scenario",
+    "name": "Super Cool Scenario",
     "description": "Scenario with all enum values populated where possible.",
     "pathwayType": "Normative",
     "modelYearNetzero": 2050,
