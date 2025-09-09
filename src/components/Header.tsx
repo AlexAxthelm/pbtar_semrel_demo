@@ -35,7 +35,7 @@ const COLOR_CLASS: Record<string, string> = {
             <h1 className="text-xl md:text-2xl font-bold tracking-tight">
               SEMREL DEMO {pkgVersion}
             </h1>
-            <p className="text-xs md:text-sm text-white">by RMI</p>
+            <p className="text-xs md:text-sm">Graphic design is my passion</p>
           </div>
         </Link>
 
