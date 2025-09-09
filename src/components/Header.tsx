@@ -8,8 +8,16 @@ const pkgVersion = (pkg as { version: string | undefined }).version;
 const Header: React.FC = () => {
   const location = useLocation();
 
+const bgColor: string = "rmipurple";
+
+const BG_CLASS: Record<string, string> = {
+  rmipurple: "bg-rmipurple-800",
+  rmiblue: "bg-bluespruce",
+  // add others you need
+};
+
   return (
-    <header className="bg-rmipurple-800 text-white shadow-md">
+    <header className={`${BG_CLASS[bgColor] ?? "bg-rmipurple-800"} text-white shadow-md`}>
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
         <Link
           to="/"
