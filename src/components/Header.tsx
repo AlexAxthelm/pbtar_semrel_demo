@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { BarChart3 } from "lucide-react";
+import pkg from "../../package.json";
+
+const pkgVersion = (pkg as { version: string | undefined }).version;
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -18,7 +21,7 @@ const Header: React.FC = () => {
           />
           <div>
             <h1 className="text-xl md:text-2xl font-bold tracking-tight">
-              Climate Transition Scenarios Repository
+              SEMREL DEMO {pkgVersion}
             </h1>
             <p className="text-xs md:text-sm text-white">by RMI</p>
           </div>
