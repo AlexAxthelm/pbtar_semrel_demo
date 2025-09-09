@@ -2,10 +2,10 @@
 
 |                   |                                                                                                                                                             Production |                                                                                                                                 Development (`main`) |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **Link**          |                                                                                                  **[Production](https://black-moss-09fb15a1e.1.azurestaticapps.net/)** |                                                                **[Development](https://black-moss-09fb15a1e-main.westus2.1.azurestaticapps.net/)** |
+| **Link**          |                                                                                                  **[Production](https://black-moss-09fb15a1e.1.azurestaticapps.net/)** |                                                                  **[Development](https://black-moss-09fb15a1e-main.westus2.1.azurestaticapps.net/)** |
 | **`node` checks** | [![Node Package Checks](https://github.com/RMI/pbtar/actions/workflows/node.yml/badge.svg?branch=production)](https://github.com/RMI/pbtar/actions/workflows/node.yml) | [![Node Package Checks](https://github.com/RMI/pbtar/actions/workflows/node.yml/badge.svg)](https://github.com/RMI/pbtar/actions/workflows/node.yml) |
 
-Oh wow, this is a good readme.     
+Oh wow, this is a good readme.
 
 ## Running the application
 
