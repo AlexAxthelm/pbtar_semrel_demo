@@ -30,3 +30,6 @@ describe("Header component", () => {
     expect(screen.getByText("About")).toBeInTheDocument();
   });
 });
+
+
+// Pretend I added a test here
