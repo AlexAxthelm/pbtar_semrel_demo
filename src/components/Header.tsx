@@ -12,6 +12,8 @@ const bgColor: string = "rmipurple";
 const textColor: string = "white";
 
 const COLOR_CLASS: Record<string, string> = {
+  alexgreen: "alexgreen",
+  alexpurple: "alexpurple",
   rmipurple: "rmipurple-800",
   rmiblue: "bluespruce",
   white: "white",
