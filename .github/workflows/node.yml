@@ -19,7 +19,6 @@ on:
 name: Node Package Checks
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   linting:
