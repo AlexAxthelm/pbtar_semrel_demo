@@ -4,6 +4,10 @@
 
 @theme {
   /* Primary colours */
+  --color-alexpurple: #7b55da;
+  --color-alexgreen: #b4da55;
+
+  /* Primary colours */
   --color-bluespruce: #003b63;
   --color-energy: #45cfcc;
   --color-basalt: #58595b;
@@ -75,3 +79,6 @@
   --color-rmigray-700: #231f20;
   --color-rmigray-800: #231f20;
 }
+
+@source inline("bg-alexpurple bg-alexgreen bg-energy bg-rmipurple-800");
+@source inline("text-alexpurple text-alexgreen text-energy text-rmipurple-800");

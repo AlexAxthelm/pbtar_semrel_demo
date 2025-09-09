@@ -3,7 +3,7 @@ on:
 
 jobs:
   lint:
-    name: "Run ajv JSON validator"
+    name: "Run data validation"
     runs-on: ubuntu-latest
 
     steps:
