@@ -26,5 +26,4 @@ describe("Header component", () => {
   });
 });
 
-
 // Pretend I added a test here

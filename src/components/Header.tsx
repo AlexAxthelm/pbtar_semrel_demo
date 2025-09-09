@@ -8,20 +8,22 @@ const pkgVersion = (pkg as { version: string | undefined }).version;
 const Header: React.FC = () => {
   const location = useLocation();
 
-const bgColor: string = "alexgreen";
-const textColor: string = "alexpurple";
+  const bgColor: string = "alexgreen";
+  const textColor: string = "alexpurple";
 
-const COLOR_CLASS: Record<string, string> = {
-  alexgreen: "alexgreen",
-  alexpurple: "alexpurple",
-  rmipurple: "rmipurple-800",
-  rmiblue: "bluespruce",
-  white: "white",
-  // add others you need
-};
+  const COLOR_CLASS: Record<string, string> = {
+    alexgreen: "alexgreen",
+    alexpurple: "alexpurple",
+    rmipurple: "rmipurple-800",
+    rmiblue: "bluespruce",
+    white: "white",
+    // add others you need
+  };
 
   return (
-    <header className={`${("bg-" + COLOR_CLASS[bgColor])} ${"text-" + COLOR_CLASS[textColor]} shadow-md`}>
+    <header
+      className={`${"bg-" + COLOR_CLASS[bgColor]} ${"text-" + COLOR_CLASS[textColor]} shadow-md`}
+    >
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
         <Link
           to="/"
