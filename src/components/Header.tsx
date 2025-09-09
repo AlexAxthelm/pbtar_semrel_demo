@@ -8,8 +8,8 @@ const pkgVersion = (pkg as { version: string | undefined }).version;
 const Header: React.FC = () => {
   const location = useLocation();
 
-const bgColor: string = "rmipurple";
-const textColor: string = "white";
+const bgColor: string = "alexgreen";
+const textColor: string = "alexpurple";
 
 const COLOR_CLASS: Record<string, string> = {
   alexgreen: "alexgreen",
